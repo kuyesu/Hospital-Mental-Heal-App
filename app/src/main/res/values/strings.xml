@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Shifa App</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Shifa International Hospital Ltd.</string>
+    <string name="nav_header_subtitle">+92-51-846-4646</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="info">Hospitals are very important as they provide medical treatment to the patients with a range of diseases. Thus, it is essential that the data related to hospitals shall be stored efficiently and safely.\nThe main purpose of this system is to minimize the paperwork of the hospital records and to fetch the details quickly.</string>
+
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="speciality">
+        <item>Please choose a speciality</item>
+        <item>Allergy and Immunology</item>
+        <item>Cardiology</item>
+        <item>Dermatology</item>
+        <item>Infectious Disease</item>
+    </string-array>
+
+    <string-array name="user">
+        <item>Administrator</item>
+        <item>Doctor</item>
+        <item>Patient</item>
+        <item>Pharmacist</item>
+    </string-array>
+
+    <string-array name="remove">
+        <item>Patient</item>
+        <item>Doctor</item>
+        <item>Pharmacist</item>
+    </string-array>
+
+    <string-array name="meds">
+        <item>Lipitor</item>
+        <item>Nexium</item>
+        <item>Plavix</item>>
+        <item>Avair Diskus</item>
+        <item>Abilify</item>
+    </string-array>
+
+    <string name="title_view">View Users</string>
+    <string name="title_add">Add Doctors</string>
+    <string name="title_add_pharm">Add Pharmacists</string>
+    <string name="title_delete">Remove Users</string>
+    <string name="alphanum">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz1234567890</string>
+    <string name="alpha">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsersAdd">
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView01">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="First Name:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/add_doc_fname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textCapWords"
+                android:digits="@string/alpha"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="Last Name:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/add_doc_lname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textCapWords"
+                android:digits="@string/alpha"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="Gender:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_gender_doc"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="Date of Birth:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/date_doc"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Select Date Here"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="Mobile Number:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/add_doc_mobnum"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="CNIC Number:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/add_doc_cnic"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="Speciality:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <Spinner
+                android:id="@+id/spinner_speciality_doc"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="Address:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/add_doc_addr"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textCapWords"
+                android:digits="@string/alphanum"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="Password:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/add_doc_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textPassword"
+                android:digits="@string/alphanum"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp" />
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/add_doc_buttonreg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="54dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="100dp"
+                    android:gravity="center"
+                    android:text="Register"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </android.support.constraint.ConstraintLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
